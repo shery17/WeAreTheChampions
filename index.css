@@ -1,0 +1,83 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1B1924;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+/* Typography */
+
+h1, h2, button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+button {
+    font-size: 22px;
+    color: #04131C;
+    background: #28A9F1;
+    width: 317px;
+    height: 81px;
+    border-radius: 8px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-top: 50px;
+}
+
+input, textarea {
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+    color: #8F8F8F;
+    font-size: 15px;
+}
+
+p {
+    background: white;
+    width: 300px;
+    text-align: left;
+    padding: 5px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+span {
+    text-align: right;
+}
+
+/* Layout */
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px 0px;
+}
+
+.toFrom-textbox {
+    width: 152px;
+    height: 40px;
+    text-align: center;
+}
+
+.endorsement-textarea {
+    width: 317px;
+    height: 118px;
+}
+
+/* Utility */
